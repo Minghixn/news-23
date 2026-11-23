@@ -1,0 +1,6 @@
+# news-image-20261123 — Sum up 23 November 2026 world news in one image
+- Bounty: $100, top 50 share ($20/$12/$6, 4–10 $2, 11–50 $1.20). Deadline 2026-11-25T00:00Z (07:00 +07 Wed 25/11). Submissions at scan: 4,199.
+- Entry: `main.ts` (Node stdlib only, no network) writes the embedded 1920×1080 PNG to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`).
+- Rendered by `generate.py` (Pillow + Liberation Sans). Stories verified vs Reuters/BBC/USGS/AP/AFP, morning reports 23 Nov (built 04:30 UTC, so later-day events are not covered): COP31 fallout (UN chief: 'no ambiguity in the science'); M6.5 Vanuatu quake, 600 km deep, no tsunami; Democrats' 258 seats confirmed (BBC); S. Korea education minister quits over AI cheating (Suneung); US races to shield air traffic (1,000+ Delta delays); Trump 'inclined' to resume Iran conflict if no deal by New Year. Ticker: boy 7 pulled alive in Ukraine, Nepal PM in Delhi, Nigeria boat accident (24 dead), Kim: 'security, not supremacy'.
+- Verified: `MAKEFUN_OUTPUT_DIR=/tmp/out23 node main.ts` → entry.png 198,499 bytes, 1920×1080, sha256 identical to entry.png. preview.png is a copy for viewing.
+- NOT submitted. No keypair, no registration, no GitHub push, no post.
